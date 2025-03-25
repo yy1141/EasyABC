@@ -1,0 +1,41 @@
+X:1
+T:睡莲记忆·进阶版
+C:AI作曲
+M:4/4
+L:1/8
+Q:1/4=76
+K:Em
+%%score { (右手旋律 右手和声) | 左手伴奏 }
+V:右手旋律 clef=treble name="旋律"
+V:右手和声 clef=treble name="和声层"
+V:左手伴奏 clef=bass name="伴奏"
+
+% 前奏（e小调）
+[V:右手旋律] z2 E2 G2 | (B4 e4) | (d2 B2) (G2 F#2) | E4 z2 |
+[V:右手和声] z2 [EGB]2 [GBd]2 | [Bde]4 [GBe]4 | [Ac]2 [Bd]2 [GB]2 | [DF#A]4 [CEG]2 |
+[V:左手伴奏] E,, [G,B,E]2 [B,E] | A,,[CEA]2 [E,A,] | G,,[CEG]2 [EG] | D,,[F#A,D]2 [A,D] |
+
+% 第一段（意大利增六）
+[V:右手旋律] "若"E2 "你"G "已"B "忘"e | "浮"d2 "动"B "的"G2 | "在"A2 "暮"c "色"E "影"G | "幽"F#4 E2 |
+[V:右手和声] [BDF#] [CEG] [GBD] | [DF#A] [BDF#] [GBD] | [GBE] [ACF#] [CEG] | "^It+6"[ACF#]4 [BDF#]2 |
+[V:左手伴奏] E, [G,B,]2 [B,E] | D, [F#A,]2 [A,D] | C, [EG]2 [GC] | D, [F#A,]2 [A,D] |
+
+% 第二段（法国增六）
+[V:右手旋律] "若"G2 "忘"B "记"d "那"g | "慵"f2 "懒"d "的"B2 | "你"c2 "便"e "可"G "安"B | "回"A4 F#2 |
+[V:右手和声] [EGB] [GBD] [BEG] | [GBD] [EGB] [CEG] | [ACF#] [CEG] [EGB] | "^Fr+6"[DF#A]4 [CEG]2 |
+[V:左手伴奏] G, [B,D]2 [D,G] | F, [A,C]2 [C,F] | E, [G,C]2 [C,E] | D, [F#A,]2 [A,D] |
+
+% 转调段（德国增六→G大调）
+[V:右手旋律] "但"E2 "若"G "你"B "还"E | "请"F2 "永"A "远"C "离"F | "去"G2 "那"B "平"D "原"G | "池"A4 F#2 |
+[V:右手和声] [ACF] [CFA] [FAC] | [ACF] [CFA] [FAC] | [GBD] [BDG] [DGB] | "^Ger+6"[DF#A]4 [CEG]2 |
+[V:左手伴奏] E, [A,C]2 [C,F] | F, [A,C]2 [C,F] | G, [B,D]2 [D,G] | A, [C,E]2 [E,A] |
+
+% 高潮段（G大调）
+[V:右手旋律] "暮"G2 "色"B "中"d "不"g | "睡"f2 "莲"d "合"B2 | "山"c2 "影"e "也"G "永"B | "不"A4 G2 |
+[V:右手和声] [EGB] [GBD] [BEG] | [GBD] [EGB] [CEG] | [ACF#] [CEG] [EGB] | [DF#A] [F#AC] [ACF#] |
+[V:左手伴奏] G, [B,D]2 [D,G] | F, [A,C]2 [C,F] | E, [G,C]2 [C,E] | D, [F#A,]2 [A,D] |
+
+% 尾声
+[V:右手旋律] (G2 B2) (d2 g2) | (f2 d2) (B2 A2) | (e2 g2) (B2 e2) | G4 E2 |
+[V:右手和声] [EGB] [GBD] [BEG] | [GBD] [EGB] [CEG] | [ACF#] [CEG] [EGB] | [DF#A] [F#AC] [ACF#] |
+[V:左手伴奏] G, [B,D]2 [D,G] | F, [A,C]2 [C,F] | E, [G,B,]2 [B,E] | G, [B,E]2 [E,G] |
